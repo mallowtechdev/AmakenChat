@@ -1,0 +1,18 @@
+PODS:
+  - Alamofire (4.0.1)
+  - AlamofireImage (3.1.0):
+    - Alamofire (~> 4.0)
+  - SOAPEngine (1.27)
+
+DEPENDENCIES:
+  - AlamofireImage (~> 3.1)
+  - SOAPEngine
+
+SPEC CHECKSUMS:
+  Alamofire: 7682d43245de14874acd142ec137b144aa1dd335
+  AlamofireImage: bb8c8351c51cb1633bb6be69b6dbbaff37ce65b7
+  SOAPEngine: e4b13175e3972eef93223eb9f397b8c86e1e6892
+
+PODFILE CHECKSUM: 573e2414be3b346ba6d35c680f7fe891dfe9823f
+
+COCOAPODS: 1.1.1

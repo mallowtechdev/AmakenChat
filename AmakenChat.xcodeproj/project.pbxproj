@@ -1,0 +1,763 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6B4DA17C6B6EFE23430B8EF0 /* Pods_AmakenChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A73F3505CF307765913A2C3 /* Pods_AmakenChat.framework */; };
+		8559F7D91DDD756B005E77E4 /* ACUserCardEntity+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8559F7D71DDD756B005E77E4 /* ACUserCardEntity+CoreDataClass.swift */; };
+		8559F7DA1DDD756B005E77E4 /* ACUserCardEntity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8559F7D81DDD756B005E77E4 /* ACUserCardEntity+CoreDataProperties.swift */; };
+		858A98091DDC126F00270BE8 /* AmakenChat.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 858A98071DDC126F00270BE8 /* AmakenChat.xcdatamodeld */; };
+		8592C5B21DDAD96D0018BAF0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8592C5A51DDAD96D0018BAF0 /* AppDelegate.swift */; };
+		8592C5B31DDAD96D0018BAF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8592C5A71DDAD96D0018BAF0 /* Assets.xcassets */; };
+		8592C5B61DDADA950018BAF0 /* ACViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8592C5B51DDADA950018BAF0 /* ACViewController.swift */; };
+		8592C5CB1DDADBCD0018BAF0 /* MTHandleKeyBoardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8592C5C51DDADBCD0018BAF0 /* MTHandleKeyBoardViewController.m */; };
+		8592C5CD1DDADC180018BAF0 /* ACExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8592C5CC1DDADC180018BAF0 /* ACExtensions.swift */; };
+		8592C5CF1DDADCF50018BAF0 /* ACButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8592C5CE1DDADCF50018BAF0 /* ACButton.swift */; };
+		8592C5D11DDADD0D0018BAF0 /* ACImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8592C5D01DDADD0D0018BAF0 /* ACImageView.swift */; };
+		8592C5D31DDADD1E0018BAF0 /* ACLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8592C5D21DDADD1E0018BAF0 /* ACLabel.swift */; };
+		8592C5D51DDADD3B0018BAF0 /* ACTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8592C5D41DDADD3B0018BAF0 /* ACTableView.swift */; };
+		8592C5D71DDADD4A0018BAF0 /* ACTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8592C5D61DDADD4A0018BAF0 /* ACTableViewCell.swift */; };
+		8592C5D91DDADD5D0018BAF0 /* ACView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8592C5D81DDADD5D0018BAF0 /* ACView.swift */; };
+		8592C5DB1DDADDCE0018BAF0 /* ACConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8592C5DA1DDADDCE0018BAF0 /* ACConstant.swift */; };
+		8592C5E31DDAEB8C0018BAF0 /* AmakenChatStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8592C5E21DDAEB8C0018BAF0 /* AmakenChatStoryboard.storyboard */; };
+		8592C5E61DDAEC150018BAF0 /* ACAmakenChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8592C5E51DDAEC150018BAF0 /* ACAmakenChatViewController.swift */; };
+		8592C5E81DDAF35A0018BAF0 /* ACWelcomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8592C5E71DDAF35A0018BAF0 /* ACWelcomeTableViewCell.swift */; };
+		8592C6081DDB0CD00018BAF0 /* ACContentCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8592C6071DDB0CD00018BAF0 /* ACContentCollectionViewCell.swift */; };
+		8592C60A1DDB3C520018BAF0 /* ACPromotionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8592C6091DDB3C520018BAF0 /* ACPromotionTableViewCell.swift */; };
+		8592C60C1DDB3C630018BAF0 /* ACCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8592C60B1DDB3C630018BAF0 /* ACCollectionViewCell.swift */; };
+		8592C60E1DDB3C8E0018BAF0 /* ACCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8592C60D1DDB3C8E0018BAF0 /* ACCollectionView.swift */; };
+		8592C6101DDB44D20018BAF0 /* ACPromotionCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8592C60F1DDB44D20018BAF0 /* ACPromotionCollectionViewCell.swift */; };
+		85D24AD01DDC4A33008443A8 /* ACNetworkRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D24ACF1DDC4A33008443A8 /* ACNetworkRequest.swift */; };
+		85D24ADA1DDC864A008443A8 /* ACCardEntity+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D24AD21DDC864A008443A8 /* ACCardEntity+CoreDataClass.swift */; };
+		85D24ADB1DDC864A008443A8 /* ACCardEntity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D24AD31DDC864A008443A8 /* ACCardEntity+CoreDataProperties.swift */; };
+		85D24ADC1DDC864A008443A8 /* ACContentEntity+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D24AD41DDC864A008443A8 /* ACContentEntity+CoreDataClass.swift */; };
+		85D24ADD1DDC864A008443A8 /* ACContentEntity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D24AD51DDC864A008443A8 /* ACContentEntity+CoreDataProperties.swift */; };
+		85D24ADE1DDC864A008443A8 /* ACPromotionCardEntity+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D24AD61DDC864A008443A8 /* ACPromotionCardEntity+CoreDataClass.swift */; };
+		85D24ADF1DDC864A008443A8 /* ACPromotionCardEntity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D24AD71DDC864A008443A8 /* ACPromotionCardEntity+CoreDataProperties.swift */; };
+		85D24AE01DDC864A008443A8 /* ACWelcomeCardEntity+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D24AD81DDC864A008443A8 /* ACWelcomeCardEntity+CoreDataClass.swift */; };
+		85D24AE11DDC864A008443A8 /* ACWelcomeCardEntity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D24AD91DDC864A008443A8 /* ACWelcomeCardEntity+CoreDataProperties.swift */; };
+		EC29AC751DDEB430001B00B9 /* ACImageSlidingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC29AC741DDEB430001B00B9 /* ACImageSlidingCell.swift */; };
+		EC29AC771DDEB4A8001B00B9 /* ACCardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC29AC761DDEB4A8001B00B9 /* ACCardCell.swift */; };
+		EC5E9BC11DDE0EA90088B5F4 /* ACUserCardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5E9BC01DDE0EA90088B5F4 /* ACUserCardTableViewCell.swift */; };
+		EC5E9BC31DDE37730088B5F4 /* ACHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5E9BC21DDE37730088B5F4 /* ACHelper.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2A73F3505CF307765913A2C3 /* Pods_AmakenChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AmakenChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		67956124966BFC341E49BE7D /* Pods-AmakenChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AmakenChat.release.xcconfig"; path = "Pods/Target Support Files/Pods-AmakenChat/Pods-AmakenChat.release.xcconfig"; sourceTree = "<group>"; };
+		8559F7D71DDD756B005E77E4 /* ACUserCardEntity+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ACUserCardEntity+CoreDataClass.swift"; sourceTree = "<group>"; };
+		8559F7D81DDD756B005E77E4 /* ACUserCardEntity+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ACUserCardEntity+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		858A98081DDC126F00270BE8 /* AmakenChat.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AmakenChat.xcdatamodel; sourceTree = "<group>"; };
+		8592C58F1DDAD2710018BAF0 /* AmakenChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AmakenChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8592C59E1DDAD2710018BAF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8592C5A51DDAD96D0018BAF0 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8592C5A71DDAD96D0018BAF0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8592C5B51DDADA950018BAF0 /* ACViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ACViewController.swift; sourceTree = "<group>"; };
+		8592C5B71DDADB210018BAF0 /* AmakenChat-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AmakenChat-Bridging-Header.h"; sourceTree = "<group>"; };
+		8592C5C41DDADBCD0018BAF0 /* MTHandleKeyBoardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTHandleKeyBoardViewController.h; sourceTree = "<group>"; };
+		8592C5C51DDADBCD0018BAF0 /* MTHandleKeyBoardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTHandleKeyBoardViewController.m; sourceTree = "<group>"; };
+		8592C5CC1DDADC180018BAF0 /* ACExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ACExtensions.swift; sourceTree = "<group>"; };
+		8592C5CE1DDADCF50018BAF0 /* ACButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ACButton.swift; sourceTree = "<group>"; };
+		8592C5D01DDADD0D0018BAF0 /* ACImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ACImageView.swift; sourceTree = "<group>"; };
+		8592C5D21DDADD1E0018BAF0 /* ACLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ACLabel.swift; sourceTree = "<group>"; };
+		8592C5D41DDADD3B0018BAF0 /* ACTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ACTableView.swift; sourceTree = "<group>"; };
+		8592C5D61DDADD4A0018BAF0 /* ACTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ACTableViewCell.swift; sourceTree = "<group>"; };
+		8592C5D81DDADD5D0018BAF0 /* ACView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ACView.swift; sourceTree = "<group>"; };
+		8592C5DA1DDADDCE0018BAF0 /* ACConstant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ACConstant.swift; sourceTree = "<group>"; };
+		8592C5E21DDAEB8C0018BAF0 /* AmakenChatStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = AmakenChatStoryboard.storyboard; sourceTree = "<group>"; };
+		8592C5E51DDAEC150018BAF0 /* ACAmakenChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ACAmakenChatViewController.swift; sourceTree = "<group>"; };
+		8592C5E71DDAF35A0018BAF0 /* ACWelcomeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ACWelcomeTableViewCell.swift; sourceTree = "<group>"; };
+		8592C6071DDB0CD00018BAF0 /* ACContentCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ACContentCollectionViewCell.swift; sourceTree = "<group>"; };
+		8592C6091DDB3C520018BAF0 /* ACPromotionTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ACPromotionTableViewCell.swift; sourceTree = "<group>"; };
+		8592C60B1DDB3C630018BAF0 /* ACCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ACCollectionViewCell.swift; sourceTree = "<group>"; };
+		8592C60D1DDB3C8E0018BAF0 /* ACCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ACCollectionView.swift; sourceTree = "<group>"; };
+		8592C60F1DDB44D20018BAF0 /* ACPromotionCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ACPromotionCollectionViewCell.swift; sourceTree = "<group>"; };
+		85D24ACF1DDC4A33008443A8 /* ACNetworkRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ACNetworkRequest.swift; sourceTree = "<group>"; };
+		85D24AD21DDC864A008443A8 /* ACCardEntity+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ACCardEntity+CoreDataClass.swift"; sourceTree = "<group>"; };
+		85D24AD31DDC864A008443A8 /* ACCardEntity+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ACCardEntity+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		85D24AD41DDC864A008443A8 /* ACContentEntity+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ACContentEntity+CoreDataClass.swift"; sourceTree = "<group>"; };
+		85D24AD51DDC864A008443A8 /* ACContentEntity+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ACContentEntity+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		85D24AD61DDC864A008443A8 /* ACPromotionCardEntity+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ACPromotionCardEntity+CoreDataClass.swift"; sourceTree = "<group>"; };
+		85D24AD71DDC864A008443A8 /* ACPromotionCardEntity+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ACPromotionCardEntity+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		85D24AD81DDC864A008443A8 /* ACWelcomeCardEntity+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ACWelcomeCardEntity+CoreDataClass.swift"; sourceTree = "<group>"; };
+		85D24AD91DDC864A008443A8 /* ACWelcomeCardEntity+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ACWelcomeCardEntity+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		9746CABEEFBF557D8846BB87 /* Pods-AmakenChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AmakenChat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AmakenChat/Pods-AmakenChat.debug.xcconfig"; sourceTree = "<group>"; };
+		998AEFAA7800FCE4C27D9FC9 /* Pods-AmakenChat.distribution.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AmakenChat.distribution.xcconfig"; path = "Pods/Target Support Files/Pods-AmakenChat/Pods-AmakenChat.distribution.xcconfig"; sourceTree = "<group>"; };
+		E38D09036384A39442829DD2 /* Pods-AmakenChat.adhoc.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AmakenChat.adhoc.xcconfig"; path = "Pods/Target Support Files/Pods-AmakenChat/Pods-AmakenChat.adhoc.xcconfig"; sourceTree = "<group>"; };
+		EC29AC741DDEB430001B00B9 /* ACImageSlidingCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ACImageSlidingCell.swift; sourceTree = "<group>"; };
+		EC29AC761DDEB4A8001B00B9 /* ACCardCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ACCardCell.swift; sourceTree = "<group>"; };
+		EC5E9BC01DDE0EA90088B5F4 /* ACUserCardTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ACUserCardTableViewCell.swift; sourceTree = "<group>"; };
+		EC5E9BC21DDE37730088B5F4 /* ACHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ACHelper.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8592C58C1DDAD2710018BAF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B4DA17C6B6EFE23430B8EF0 /* Pods_AmakenChat.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00D773D714A247E29C8835EA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9746CABEEFBF557D8846BB87 /* Pods-AmakenChat.debug.xcconfig */,
+				E38D09036384A39442829DD2 /* Pods-AmakenChat.adhoc.xcconfig */,
+				67956124966BFC341E49BE7D /* Pods-AmakenChat.release.xcconfig */,
+				998AEFAA7800FCE4C27D9FC9 /* Pods-AmakenChat.distribution.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8592C5861DDAD2710018BAF0 = {
+			isa = PBXGroup;
+			children = (
+				8592C5911DDAD2710018BAF0 /* AmakenChat */,
+				8592C5901DDAD2710018BAF0 /* Products */,
+				00D773D714A247E29C8835EA /* Pods */,
+				DCFC96C60A52074255C29D2C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8592C5901DDAD2710018BAF0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8592C58F1DDAD2710018BAF0 /* AmakenChat.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8592C5911DDAD2710018BAF0 /* AmakenChat */ = {
+			isa = PBXGroup;
+			children = (
+				85D24AD11DDC864A008443A8 /* DataModel */,
+				8592C5A41DDAD96D0018BAF0 /* AppDelegate */,
+				8592C5A61DDAD96D0018BAF0 /* Assets */,
+				8592C5A81DDAD96D0018BAF0 /* CustomClasses */,
+				8592C5AB1DDAD96D0018BAF0 /* Extensions */,
+				8592C5AC1DDAD96D0018BAF0 /* Shared */,
+				8592C5AD1DDAD96D0018BAF0 /* Storyboard */,
+				8592C5AE1DDAD96D0018BAF0 /* SubModules */,
+				8592C5AF1DDAD96D0018BAF0 /* ViewControllers */,
+				8592C59E1DDAD2710018BAF0 /* Info.plist */,
+				858A98071DDC126F00270BE8 /* AmakenChat.xcdatamodeld */,
+			);
+			path = AmakenChat;
+			sourceTree = "<group>";
+		};
+		8592C5A41DDAD96D0018BAF0 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				8592C5A51DDAD96D0018BAF0 /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		8592C5A61DDAD96D0018BAF0 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				8592C5A71DDAD96D0018BAF0 /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		8592C5A81DDAD96D0018BAF0 /* CustomClasses */ = {
+			isa = PBXGroup;
+			children = (
+				8592C5AA1DDAD96D0018BAF0 /* UI */,
+			);
+			path = CustomClasses;
+			sourceTree = "<group>";
+		};
+		8592C5AA1DDAD96D0018BAF0 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				8592C5CE1DDADCF50018BAF0 /* ACButton.swift */,
+				8592C5D01DDADD0D0018BAF0 /* ACImageView.swift */,
+				8592C5D21DDADD1E0018BAF0 /* ACLabel.swift */,
+				8592C5D41DDADD3B0018BAF0 /* ACTableView.swift */,
+				8592C5D61DDADD4A0018BAF0 /* ACTableViewCell.swift */,
+				8592C5D81DDADD5D0018BAF0 /* ACView.swift */,
+				8592C60B1DDB3C630018BAF0 /* ACCollectionViewCell.swift */,
+				8592C60D1DDB3C8E0018BAF0 /* ACCollectionView.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		8592C5AB1DDAD96D0018BAF0 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8592C5CC1DDADC180018BAF0 /* ACExtensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		8592C5AC1DDAD96D0018BAF0 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				EC5E9BC21DDE37730088B5F4 /* ACHelper.swift */,
+				8592C5B71DDADB210018BAF0 /* AmakenChat-Bridging-Header.h */,
+				8592C5DA1DDADDCE0018BAF0 /* ACConstant.swift */,
+				85D24ACF1DDC4A33008443A8 /* ACNetworkRequest.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		8592C5AD1DDAD96D0018BAF0 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				8592C5E21DDAEB8C0018BAF0 /* AmakenChatStoryboard.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		8592C5AE1DDAD96D0018BAF0 /* SubModules */ = {
+			isa = PBXGroup;
+			children = (
+				8592C5C31DDADBCD0018BAF0 /* MTHandleKeyboardSource */,
+			);
+			path = SubModules;
+			sourceTree = "<group>";
+		};
+		8592C5AF1DDAD96D0018BAF0 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				8592C5E41DDAEBFA0018BAF0 /* AmakenChat */,
+				8592C5B01DDAD96D0018BAF0 /* Common */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		8592C5B01DDAD96D0018BAF0 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				8592C5B51DDADA950018BAF0 /* ACViewController.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		8592C5C31DDADBCD0018BAF0 /* MTHandleKeyboardSource */ = {
+			isa = PBXGroup;
+			children = (
+				8592C5C41DDADBCD0018BAF0 /* MTHandleKeyBoardViewController.h */,
+				8592C5C51DDADBCD0018BAF0 /* MTHandleKeyBoardViewController.m */,
+			);
+			path = MTHandleKeyboardSource;
+			sourceTree = "<group>";
+		};
+		8592C5E41DDAEBFA0018BAF0 /* AmakenChat */ = {
+			isa = PBXGroup;
+			children = (
+				8592C5E51DDAEC150018BAF0 /* ACAmakenChatViewController.swift */,
+				EC5E9BC01DDE0EA90088B5F4 /* ACUserCardTableViewCell.swift */,
+				8592C5E71DDAF35A0018BAF0 /* ACWelcomeTableViewCell.swift */,
+				8592C6071DDB0CD00018BAF0 /* ACContentCollectionViewCell.swift */,
+				8592C6091DDB3C520018BAF0 /* ACPromotionTableViewCell.swift */,
+				8592C60F1DDB44D20018BAF0 /* ACPromotionCollectionViewCell.swift */,
+				EC29AC741DDEB430001B00B9 /* ACImageSlidingCell.swift */,
+				EC29AC761DDEB4A8001B00B9 /* ACCardCell.swift */,
+			);
+			path = AmakenChat;
+			sourceTree = "<group>";
+		};
+		85D24AD11DDC864A008443A8 /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				8559F7D71DDD756B005E77E4 /* ACUserCardEntity+CoreDataClass.swift */,
+				8559F7D81DDD756B005E77E4 /* ACUserCardEntity+CoreDataProperties.swift */,
+				85D24AD21DDC864A008443A8 /* ACCardEntity+CoreDataClass.swift */,
+				85D24AD31DDC864A008443A8 /* ACCardEntity+CoreDataProperties.swift */,
+				85D24AD41DDC864A008443A8 /* ACContentEntity+CoreDataClass.swift */,
+				85D24AD51DDC864A008443A8 /* ACContentEntity+CoreDataProperties.swift */,
+				85D24AD61DDC864A008443A8 /* ACPromotionCardEntity+CoreDataClass.swift */,
+				85D24AD71DDC864A008443A8 /* ACPromotionCardEntity+CoreDataProperties.swift */,
+				85D24AD81DDC864A008443A8 /* ACWelcomeCardEntity+CoreDataClass.swift */,
+				85D24AD91DDC864A008443A8 /* ACWelcomeCardEntity+CoreDataProperties.swift */,
+			);
+			path = DataModel;
+			sourceTree = "<group>";
+		};
+		DCFC96C60A52074255C29D2C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2A73F3505CF307765913A2C3 /* Pods_AmakenChat.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8592C58E1DDAD2710018BAF0 /* AmakenChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8592C5A11DDAD2710018BAF0 /* Build configuration list for PBXNativeTarget "AmakenChat" */;
+			buildPhases = (
+				5F5A8A8CBF5F17836681518D /* [CP] Check Pods Manifest.lock */,
+				8592C58B1DDAD2710018BAF0 /* Sources */,
+				8592C58C1DDAD2710018BAF0 /* Frameworks */,
+				8592C58D1DDAD2710018BAF0 /* Resources */,
+				A0082A31553EB7C7074381AD /* [CP] Embed Pods Frameworks */,
+				801BDC3C8A5DC13DEC1656C4 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AmakenChat;
+			productName = AmakenChat;
+			productReference = 8592C58F1DDAD2710018BAF0 /* AmakenChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8592C5871DDAD2710018BAF0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = AC;
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Mallow Technologies Private Limited";
+				TargetAttributes = {
+					8592C58E1DDAD2710018BAF0 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 3RHR7K3FP7;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 8592C58A1DDAD2710018BAF0 /* Build configuration list for PBXProject "AmakenChat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8592C5861DDAD2710018BAF0;
+			productRefGroup = 8592C5901DDAD2710018BAF0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8592C58E1DDAD2710018BAF0 /* AmakenChat */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8592C58D1DDAD2710018BAF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8592C5E31DDAEB8C0018BAF0 /* AmakenChatStoryboard.storyboard in Resources */,
+				8592C5B31DDAD96D0018BAF0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5F5A8A8CBF5F17836681518D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		801BDC3C8A5DC13DEC1656C4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AmakenChat/Pods-AmakenChat-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A0082A31553EB7C7074381AD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AmakenChat/Pods-AmakenChat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8592C58B1DDAD2710018BAF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8592C6101DDB44D20018BAF0 /* ACPromotionCollectionViewCell.swift in Sources */,
+				8592C5E81DDAF35A0018BAF0 /* ACWelcomeTableViewCell.swift in Sources */,
+				8592C60A1DDB3C520018BAF0 /* ACPromotionTableViewCell.swift in Sources */,
+				8592C5CB1DDADBCD0018BAF0 /* MTHandleKeyBoardViewController.m in Sources */,
+				8592C5D11DDADD0D0018BAF0 /* ACImageView.swift in Sources */,
+				85D24ADF1DDC864A008443A8 /* ACPromotionCardEntity+CoreDataProperties.swift in Sources */,
+				85D24AE11DDC864A008443A8 /* ACWelcomeCardEntity+CoreDataProperties.swift in Sources */,
+				85D24AD01DDC4A33008443A8 /* ACNetworkRequest.swift in Sources */,
+				85D24ADE1DDC864A008443A8 /* ACPromotionCardEntity+CoreDataClass.swift in Sources */,
+				85D24ADA1DDC864A008443A8 /* ACCardEntity+CoreDataClass.swift in Sources */,
+				8592C5D71DDADD4A0018BAF0 /* ACTableViewCell.swift in Sources */,
+				EC5E9BC31DDE37730088B5F4 /* ACHelper.swift in Sources */,
+				8592C60C1DDB3C630018BAF0 /* ACCollectionViewCell.swift in Sources */,
+				85D24ADD1DDC864A008443A8 /* ACContentEntity+CoreDataProperties.swift in Sources */,
+				8592C6081DDB0CD00018BAF0 /* ACContentCollectionViewCell.swift in Sources */,
+				858A98091DDC126F00270BE8 /* AmakenChat.xcdatamodeld in Sources */,
+				8592C5D31DDADD1E0018BAF0 /* ACLabel.swift in Sources */,
+				8592C5B61DDADA950018BAF0 /* ACViewController.swift in Sources */,
+				8592C5CD1DDADC180018BAF0 /* ACExtensions.swift in Sources */,
+				85D24ADB1DDC864A008443A8 /* ACCardEntity+CoreDataProperties.swift in Sources */,
+				8592C60E1DDB3C8E0018BAF0 /* ACCollectionView.swift in Sources */,
+				8592C5E61DDAEC150018BAF0 /* ACAmakenChatViewController.swift in Sources */,
+				8592C5DB1DDADDCE0018BAF0 /* ACConstant.swift in Sources */,
+				85D24AE01DDC864A008443A8 /* ACWelcomeCardEntity+CoreDataClass.swift in Sources */,
+				8592C5D51DDADD3B0018BAF0 /* ACTableView.swift in Sources */,
+				8592C5B21DDAD96D0018BAF0 /* AppDelegate.swift in Sources */,
+				85D24ADC1DDC864A008443A8 /* ACContentEntity+CoreDataClass.swift in Sources */,
+				8592C5CF1DDADCF50018BAF0 /* ACButton.swift in Sources */,
+				EC5E9BC11DDE0EA90088B5F4 /* ACUserCardTableViewCell.swift in Sources */,
+				EC29AC771DDEB4A8001B00B9 /* ACCardCell.swift in Sources */,
+				8559F7DA1DDD756B005E77E4 /* ACUserCardEntity+CoreDataProperties.swift in Sources */,
+				EC29AC751DDEB430001B00B9 /* ACImageSlidingCell.swift in Sources */,
+				8559F7D91DDD756B005E77E4 /* ACUserCardEntity+CoreDataClass.swift in Sources */,
+				8592C5D91DDADD5D0018BAF0 /* ACView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8592C59F1DDAD2710018BAF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8592C5A01DDAD2710018BAF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8592C5A21DDAD2710018BAF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9746CABEEFBF557D8846BB87 /* Pods-AmakenChat.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: iOS Mallow (ET436B85LV)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 3RHR7K3FP7;
+				INFOPLIST_FILE = AmakenChat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mallowtech.AmakenChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "c4c7f68d-dee3-4ed8-90b0-c634c88c17ad";
+				PROVISIONING_PROFILE_SPECIFIER = "MallowTech Development Apps Profile";
+				SWIFT_OBJC_BRIDGING_HEADER = "AmakenChat/Shared/AmakenChat-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		8592C5A31DDAD2710018BAF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67956124966BFC341E49BE7D /* Pods-AmakenChat.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: iOS Mallow (ET436B85LV)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 3RHR7K3FP7;
+				INFOPLIST_FILE = AmakenChat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mallowtech.AmakenChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "c4c7f68d-dee3-4ed8-90b0-c634c88c17ad";
+				PROVISIONING_PROFILE_SPECIFIER = "MallowTech Development Apps Profile";
+				SWIFT_OBJC_BRIDGING_HEADER = "AmakenChat/Shared/AmakenChat-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		8592C5DE1DDADFF50018BAF0 /* Adhoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Adhoc;
+		};
+		8592C5DF1DDADFF50018BAF0 /* Adhoc */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E38D09036384A39442829DD2 /* Pods-AmakenChat.adhoc.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: iOS Mallow (ET436B85LV)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 3RHR7K3FP7;
+				INFOPLIST_FILE = AmakenChat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mallowtech.AmakenChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "c4c7f68d-dee3-4ed8-90b0-c634c88c17ad";
+				PROVISIONING_PROFILE_SPECIFIER = "MallowTech Development Apps Profile";
+				SWIFT_OBJC_BRIDGING_HEADER = "AmakenChat/Shared/AmakenChat-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Adhoc;
+		};
+		8592C5E01DDAE0130018BAF0 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Distribution;
+		};
+		8592C5E11DDAE0130018BAF0 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 998AEFAA7800FCE4C27D9FC9 /* Pods-AmakenChat.distribution.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: iOS Mallow (ET436B85LV)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 3RHR7K3FP7;
+				INFOPLIST_FILE = AmakenChat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mallowtech.AmakenChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "c4c7f68d-dee3-4ed8-90b0-c634c88c17ad";
+				PROVISIONING_PROFILE_SPECIFIER = "MallowTech Development Apps Profile";
+				SWIFT_OBJC_BRIDGING_HEADER = "AmakenChat/Shared/AmakenChat-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Distribution;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8592C58A1DDAD2710018BAF0 /* Build configuration list for PBXProject "AmakenChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8592C59F1DDAD2710018BAF0 /* Debug */,
+				8592C5DE1DDADFF50018BAF0 /* Adhoc */,
+				8592C5A01DDAD2710018BAF0 /* Release */,
+				8592C5E01DDAE0130018BAF0 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8592C5A11DDAD2710018BAF0 /* Build configuration list for PBXNativeTarget "AmakenChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8592C5A21DDAD2710018BAF0 /* Debug */,
+				8592C5DF1DDADFF50018BAF0 /* Adhoc */,
+				8592C5A31DDAD2710018BAF0 /* Release */,
+				8592C5E11DDAE0130018BAF0 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		858A98071DDC126F00270BE8 /* AmakenChat.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				858A98081DDC126F00270BE8 /* AmakenChat.xcdatamodel */,
+			);
+			currentVersion = 858A98081DDC126F00270BE8 /* AmakenChat.xcdatamodel */;
+			path = AmakenChat.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8592C5871DDAD2710018BAF0 /* Project object */;
+}
